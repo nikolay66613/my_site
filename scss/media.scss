@@ -1,0 +1,37 @@
+$brackpoints: (
+    "xs": 480px,
+    "sm": 570px,
+    "md": 690px,
+    "lg": 960px,
+    "xl": 1240px
+);
+
+@mixin xl {
+    @media (max-width: map-get($brackpoints, "xl")) {
+        @content;
+    }
+}
+
+@mixin lg {
+    @media (max-width: map-get($brackpoints, "lg")) {
+        @content;
+    }
+}
+
+@mixin md {
+    @media (max-width: map-get($brackpoints, "md")) {
+        @content;
+    }
+}
+
+@mixin sm {
+    @media (max-width: map-get($brackpoints, "sm")) {
+        @content;
+    }
+}
+
+@mixin xs {
+    @media (max-width: map-get($brackpoints, "xs")) {
+        @content;
+    }
+}
