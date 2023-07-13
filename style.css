@@ -477,9 +477,13 @@ h2 {
   }
 }
 
+.contact_content {
+  text-align: center;
+}
+
 .contact_link {
   padding-top: 20px;
-  justify-content: left;
+  justify-content: center;
 }
 @media (max-width: 690px) {
   .contact_link {

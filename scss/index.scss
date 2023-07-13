@@ -392,10 +392,11 @@ h2 {
     }
 }
 .contact_content {
+    text-align: center;
 }
 .contact_link {
     padding-top: 20px;
-    justify-content: left;
+    justify-content: center;
 
     @include md {
         justify-content: center;
